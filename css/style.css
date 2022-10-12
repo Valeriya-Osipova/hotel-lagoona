@@ -126,15 +126,16 @@ header{
 .two-cards{
     height: 258px;
     width: 50vw;
-    background-color: #666666;
     border-radius: 15px;
 }
 
 .lux{
     height: 540px;
     width: 50vw;
-    background-color: #666666;
     border-radius: 15px;
+    background-image: url(/img/Special.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 .text-card{
@@ -161,4 +162,48 @@ header{
     margin-top: 15px;
     font-size: 20px;
     color: #fff;
+}
+
+.detailed{
+    margin-top: 47px;
+}
+
+.detailed-a{
+    display: flex;
+    align-items: center;
+}
+
+.detailed-text{
+    color: #F0BF5F;
+    margin-right: 5px;
+}
+
+.maldives{
+    background-image: url(/img/Maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.krit{
+    background-image: url(/img/Krit.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.maldives:hover{
+    background-image: url(/img/Maldives-darker.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.krit:hover{
+    background-image: url(/img/Krit-darker.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.lux:hover{
+    background-image: url(/img/Special-darker.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
