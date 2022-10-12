@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Regular'), local('Muller-Regular'),
+        url('/fonts/MullerRegular.woff2') format('woff2'),
+        url('/fonts/MullerRegular.woff') format('woff'),
+        url('/fonts/MullerRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #E5E5E5;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.nav-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.logo-number{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+.number{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.number a{
+    color: #666666;
+    white-space: nowrap;
+}
+
+.lk-left{
+    color: #CC9933;
+    display: inline-block;
+}
+
+.lk{
+    margin-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 70px;
+    max-height: 70px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.menu li a{
+    color: #666666;
+}
+
+.top-button{
+    margin-right: 40px;
+    padding: 13px 20px;
+    border: 1px solid #CC9933;
+    color: #CC9933;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.menu-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section{
+    margin-top: 70px;
+}
+
+.offers{
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.special-offers{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.maldives-krit{
+    margin-right: 24px;
+}
+
+.two-cards:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.two-cards{
+    height: 258px;
+    width: 50vw;
+    background-color: #666666;
+    border-radius: 15px;
+}
+
+.lux{
+    height: 540px;
+    width: 50vw;
+    background-color: #666666;
+    border-radius: 15px;
+}
+
+.text-card{
+    margin-left: 45px;
+    padding-top: 40px;
+}
+
+.text-card-lux{
+    margin-left: 45px;
+    margin-top: 212px;
+}
+
+.card-header{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;   
+}
+
+.card-header-lux{
+    font-size: 60px;
+}
+
+.cost{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+}
