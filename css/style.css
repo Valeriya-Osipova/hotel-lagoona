@@ -98,13 +98,11 @@ header{
     flex-wrap: nowrap;
 }
 
-.section{
+.headers{
     margin-top: 70px;
-}
-
-.offers{
     margin-left: 40px;
     font-size: 40px;
+    font-weight: 400;
 }
 
 .special-offers{
@@ -179,31 +177,38 @@ header{
 }
 
 .maldives{
-    background-image: url(../img/Maldives.png);
+    background-image: url(../../img/Maldives.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit{
-    background-image: url(../img/Krit.png);
+    background-image: url(../../img/Krit.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .maldives:hover{
-    background-image: url(../img/Maldives-darker.png);
+    background-image: url(../../img/Maldives-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit:hover{
-    background-image: url(../img/Krit-darker.png);
+    background-image: url(../../img/Krit-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .lux:hover{
-    background-image: url(../img/Special-darker.png);
+    background-image: url(../../img/Special-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
+}
+
+.about-text{
+    max-width: 888px;
+    margin-left: 24px;
+    margin-top: 20px;
+    line-height: 32px;
 }
