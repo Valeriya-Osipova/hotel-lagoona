@@ -131,9 +131,9 @@ header{
     height: 540px;
     width: 50vw;
     border-radius: 15px;
-    background-image: url(../../img/Special.png);
+    background-image: url(../img/Special.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
 }
 
 .text-card{
@@ -177,31 +177,31 @@ header{
 }
 
 .maldives{
-    background-image: url(../../img/Maldives.png);
+    background-image: url(../img/Maldives.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit{
-    background-image: url(../../img/Krit.png);
+    background-image: url(../img/Krit.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .maldives:hover{
-    background-image: url(../../img/Maldives-darker.png);
+    background-image: url(../img/Maldives-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit:hover{
-    background-image: url(../../img/Krit-darker.png);
+    background-image: url(../img/Krit-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .lux:hover{
-    background-image: url(../../img/Special-darker.png);
+    background-image: url(../img/Special-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
