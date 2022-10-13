@@ -1,120 +1,13 @@
-@font-face {
-    font-family: 'Muller';
-    src: local('Muller Regular'), local('Muller-Regular'),
-        url('/fonts/MullerRegular.woff2') format('woff2'),
-        url('/fonts/MullerRegular.woff') format('woff'),
-        url('/fonts/MullerRegular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    color: black;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-body{
-    font-family: Muller;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: #E5E5E5;
-}
-
-header{
-    margin-top: 30px;
-}
-
-.nav-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.logo-number{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.logo{
-    margin-right: 40px;
-}
-
-.number{
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.number a{
-    color: #666666;
-    white-space: nowrap;
-}
-
-.lk-left{
-    color: #CC9933;
-    display: inline-block;
-}
-
-.lk{
-    margin-right: 10px;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    background-color: white;
-    border-radius: 15px;
-    margin-top: 30px;
-    height: 70px;
-    max-height: 70px;
-}
-
-.menu li{
-    display: inline-block;
-    margin: 0 40px;
-}
-
-.menu li a{
-    color: #666666;
-}
-
-.top-button{
-    margin-right: 40px;
-    padding: 13px 20px;
-    border: 1px solid #CC9933;
-    color: #CC9933;
-    border-radius: 10px;
-    white-space: nowrap;
-}
-
-.menu-buttons{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.headers{
-    margin-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    font-weight: 400;
-}
 
 .special-offers{
     display: flex;
     align-items: center;
     margin-top: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .maldives-krit{
     margin-right: 24px;
+    width: 50%;
 }
 
 .two-cards:not(:last-child){
@@ -123,15 +16,14 @@ header{
 
 .two-cards{
     height: 258px;
-    width: 50vw;
     border-radius: 15px;
 }
 
 .lux{
     height: 540px;
-    width: 50vw;
+    width: 50%;
     border-radius: 15px;
-    background-image: url(../img/Special.png);
+    background-image: url(../../img/Special.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -177,57 +69,65 @@ header{
 }
 
 .maldives{
-    background-image: url(../img/Maldives.png);
+    background-image: url(../../img/Maldives.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit{
-    background-image: url(../img/Krit.png);
+    background-image: url(../../img/Krit.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .maldives:hover{
-    background-image: url(../img/Maldives-darker.png);
+    background-image: url(../../img/Maldives-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit:hover{
-    background-image: url(../img/Krit-darker.png);
+    background-image: url(../../img/Krit-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .lux:hover{
-    background-image: url(../img/Special-darker.png);
+    background-image: url(../../img/Special-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .about-text{
     max-width: 888px;
-    margin-left: 24px;
     margin-top: 20px;
     line-height: 32px;
 }
 
 .services-section{
-    margin-left: 24px;
     margin-top: 20px;
+    display: flex;
+}
+
+.services-two{
+    width: 50%;
+}
+
+.services-margin-right{
+    margin-right: 24px;
+    width: 50%;
 }
 
 .four-cards{
     height: 330px;
-    width: 50vw;
-    margin-right: 24px;
     margin-bottom: 24px;
-    border-radius: 15px;
+    border-radius: 17px;
     background-color: #fff;
 }
 
-.exclusive-img{
-    width: 50vw;
+.services-img{
     min-height: 100px;
+    width: 100%;  
 }
+
+
