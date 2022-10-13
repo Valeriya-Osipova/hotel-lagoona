@@ -131,7 +131,7 @@ header{
     height: 540px;
     width: 50vw;
     border-radius: 15px;
-    background-image: url(../../img/Special.png);
+    background-image: url(../img/Special.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -177,31 +177,31 @@ header{
 }
 
 .maldives{
-    background-image: url(../../img/Maldives.png);
+    background-image: url(../img/Maldives.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit{
-    background-image: url(../../img/Krit.png);
+    background-image: url(../img/Krit.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .maldives:hover{
-    background-image: url(../../img/Maldives-darker.png);
+    background-image: url(../img/Maldives-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .krit:hover{
-    background-image: url(../../img/Krit-darker.png);
+    background-image: url(../img/Krit-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
 
 .lux:hover{
-    background-image: url(../../img/Special-darker.png);
+    background-image: url(../img/Special-darker.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -211,4 +211,23 @@ header{
     margin-left: 24px;
     margin-top: 20px;
     line-height: 32px;
+}
+
+.services-section{
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.four-cards{
+    height: 330px;
+    width: 50vw;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.exclusive-img{
+    width: 50vw;
+    min-height: 100px;
 }
