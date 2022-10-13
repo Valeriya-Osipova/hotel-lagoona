@@ -131,7 +131,7 @@ header{
     height: 540px;
     width: 50vw;
     border-radius: 15px;
-    background-image: url(../img/Special.png);
+    background-image: url(../../img/Special.png);
     background-repeat: no-repeat;
     background-size: cover ;
 }
