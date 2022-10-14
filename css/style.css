@@ -97,13 +97,13 @@
     background-repeat: no-repeat;
     background-size: cover ;
 }
-
+/* О нас */
 .about-text{
     max-width: 888px;
     margin-top: 20px;
     line-height: 32px;
 }
-
+/* Услуги */
 .services-section{
     margin-top: 20px;
     display: flex;
@@ -180,20 +180,27 @@
     margin-top: 10px;
     line-height: 32px;
 }
-
-@media all and (max-width: 600px) {
-    .benefits-line{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .benefits-element{
-        width: 276px;
-        height: 276px;
-        margin-right: 22px;
-        margin-bottom: 22px;
-    }
-    .second-line{
-        margin-top: 0;
-    }
+/* Размещение */
+.placement-element{
+    margin-top: 20px;
 }
+
+.placement-block{
+    display: flex;
+}
+
+.plc-margin-top{
+    margin-top: 24px;
+}
+
+.placement-card{
+    width: 374px;
+    height: 440px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.placement-card:not(:last-child){
+    margin-right: 24px;
+}
+

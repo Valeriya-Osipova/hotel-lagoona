@@ -1,0 +1,29 @@
+@media all and (max-width: 600px) {
+    .benefits-line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .benefits-element{
+        width: 276px;
+        height: 276px;
+        margin-right: 22px;
+        margin-bottom: 22px;
+    }
+    .second-line{
+        margin-top: 0;
+    }
+    /* Размещение */
+    .placement-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .placement-card{
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
+    .plc-margin-top{
+        margin-top: 0;
+    }
+}
