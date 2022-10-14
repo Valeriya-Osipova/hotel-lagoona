@@ -130,4 +130,70 @@
     width: 100%;  
 }
 
+.exclusive-paragraph{
+    margin-top: 26px;
+    margin-left: 45px;
+}
 
+.exclusive-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #CC9933;
+    padding-right: 5px;
+}
+
+.exclusive-paragraph p{
+    line-height: 32px;
+}
+/* Преимущества */
+.benefits-elements{
+    margin-top: 20px;
+}
+
+.benefits-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-element{
+    width: 25%;
+    height: 276px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.benefits-element:not(:last-child){
+    margin-right: 22px;
+}
+
+.second-line{
+    margin-top: 22px;
+}
+
+.benefits-text-block{
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 42px;
+}
+
+.benefits-text{
+    margin-top: 10px;
+    line-height: 32px;
+}
+
+@media all and (max-width: 600px) {
+    .benefits-line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .benefits-element{
+        width: 276px;
+        height: 276px;
+        margin-right: 22px;
+        margin-bottom: 22px;
+    }
+    .second-line{
+        margin-top: 0;
+    }
+}
