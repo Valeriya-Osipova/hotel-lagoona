@@ -179,6 +179,7 @@
 .benefits-text{
     margin-top: 10px;
     line-height: 32px;
+    min-width: 189px;
 }
 /* Размещение */
 .placement-element{
@@ -204,3 +205,78 @@
     margin-right: 24px;
 }
 
+.placement-card-text{
+    margin-top: 32px;
+    margin-left: 45px;
+}
+
+.placement-cost-rate{
+    display: flex;
+}
+
+.placement-cost{
+    margin-right: 53px;
+    margin-bottom: 16px;
+}
+
+.ot{
+    color: #999999;
+    padding-right: 4px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 4px;
+}
+
+.placement-hotel-name-text{
+    margin-bottom: 16px;
+}
+
+.placement-location-text{
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.placement-room-button{
+    display: inline-block;
+    color: #CC9933;
+    padding: 13px 20px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+}
+
+.placement-room-button:hover{
+    color: #fff;
+    background-color: #CC9933;
+}
+
+.placement-card-bg{
+    background-image: url(../img/placement-big-card.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-width: 374px;;
+}
+
+.see-all-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 373px;
+}
+
+.see-all-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.see-all-link:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+/* Хочу тур */
+
+.want-tour-block{
+    
+}

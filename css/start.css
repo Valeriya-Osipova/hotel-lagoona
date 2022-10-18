@@ -64,6 +64,10 @@ body{
     display: inline-block;
 }
 
+.lk-left:hover{
+    text-decoration: underline;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
