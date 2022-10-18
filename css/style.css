@@ -278,5 +278,34 @@
 /* Хочу тур */
 
 .want-tour-block{
-    
+    margin-top: 70px;
+    background-color: #E9E9E9;
+    border-radius: 15px;
+}
+
+.inside-want-tour{
+    padding: 45px 40px;
+}
+
+.headers-want-tour{
+    margin: 0;
+}
+
+.choosing-block-want-tour{
+    margin-top: 20px;
+    padding: 31px 28px 32px 28px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.choosing-block-want-tour{
+    display: flex;
+}
+
+.tour-element{
+    margin-right: 41px;
+}
+
+.tour-bottom-element{
+    margin-top: 15px;
 }

@@ -468,7 +468,63 @@
         </div>
         <div class="want-tour">
             <div class="want-tour-block">
-                <h2 class="headers headers-want-tour">Хочу тур</h2>
+                <div class="inside-want-tour">
+                    <h2 class="headers headers-want-tour">Хочу тур</h2>
+                    <div class="choosing-block-want-tour">
+                        <div class="tour-element tour-departure-city">
+                            <div class="departure-city-text">
+                                <p class="tour-name-text">Город вылета</p>
+                            </div>
+                            <div class="tour-bottom-element tour-name-choise">
+                                <select>  
+                                    <option>Санкт-Петербург</option>
+                                    <option>Москва</option> 
+                                    <option>Екатеринбург</option> 
+                                </select>
+                                    
+                            </div>
+                        </div>
+                        <div class="tour-element tour-country">
+                            <div class="tour-country-text">
+                                <p class="tour-name-text">Страна</p>
+                            </div>
+                            <div class="tour-bottom-element tour-name-choise">
+                                <select>  
+                                    <option>Австралия</option>
+                                    <option>Африка</option> 
+                                    <option>Сан-Марино</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="tour-element tour-date">
+                            <div class="tour-date-text">
+                                <p class="tour-name-text">Дата прибытия</p>
+                            </div>
+                            <div class="tour-bottom-element tour-date-choise">
+                                <input type="date" name="calendar" value="2022-10-18" max="2023-10-18" min="2022-10-18">
+                            </div>
+                        </div>
+                        <div class="tour-element tour-nights">
+                            <div class="tour-nights-text">
+                                <p class="tour-name-text">Ночей</p>
+                            </div>
+                            <div class="tour-bottom-element tour-nights-choise">
+                                <input type="number" name="t" value="1" min="1" max="30" step="1">
+                            </div>
+                        </div>
+                        <div class="tour-element tour-persons">
+                            <div class="tour-persons-text">
+                                <p class="tour-name-text">Туристы</p>
+                            </div>
+                            <div class="tour-bottom-element tour-persons-choise">
+                                <input type="number" name="p" value="1" min="1" max="6" step="1">
+                            </div>
+                        </div>
+                        <div class="tour-search-button">
+                            <a class="placement-room-button search-button" href="#">Найти</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
