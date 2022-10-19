@@ -300,12 +300,74 @@
 
 .choosing-block-want-tour{
     display: flex;
-}
-
-.tour-element{
-    margin-right: 41px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .tour-bottom-element{
     margin-top: 15px;
+}
+
+.tour-name-text{
+    font-size: 12px;
+}
+
+.select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-family: inherit;
+    padding-right: 36px;
+}
+
+.tour-name-choise{
+    position: relative;
+}
+
+.tour-name-choise::before{
+    content: "";
+    position: absolute;
+
+    width: 10px;
+    height: 6px;
+
+    background-image: url(../img/arrow.png);
+    top: 50%;
+
+    pointer-events: none;
+    transform: translateY(-50%);
+    left: 90%;
+}
+
+.calendar{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    width: 121px;
+}
+
+.amount{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    width: 121px;
+}
+
+.amount:hover{
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.contacts-block{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 15px;
 }
