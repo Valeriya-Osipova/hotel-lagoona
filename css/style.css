@@ -367,7 +367,79 @@
 }
 
 .contacts-block{
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
     background-color: #fff;
     border-radius: 15px;
+    padding: 45px;
+    margin-bottom: 40px;
+}
+
+.contacts-information{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    width: 375px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.contacts-information:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.contacts-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-way{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacts-line-height{
+    line-height: 24px;
+}
+
+.line-margin-bottom{
+    margin-bottom: 8px;
+}
+
+.contacts-color{
+    color: #CC9933;
+}
+
+.contacts-color:hover{
+    text-decoration: underline;
+}
+
+.contacts-color-grey{
+    color: #999999;
+}
+
+.contacts-photo{
+    width: 653px;
+    height: 528px;
+}
+
+
+.build-route-button{
+    display: inline-block;
+    margin-top: 45px;
+    padding: 27px 29.5px;
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+}
+
+.build-route-button:hover{
+    color: #fff;
+    background-color: #CC9933;
+}
+
+/* footer */
+
+.footer{
+    padding: 45px;
 }
