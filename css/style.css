@@ -68,6 +68,10 @@
     margin-right: 5px;
 }
 
+.detailed-text:hover{
+    text-decoration: underline;
+}
+
 .maldives{
     background-image: url(../img/Maldives.png);
     background-repeat: no-repeat;
@@ -140,6 +144,10 @@
     font-weight: 500;
     color: #CC9933;
     padding-right: 5px;
+}
+
+.exclusive-text:hover{
+    text-decoration: underline;
 }
 
 .exclusive-paragraph p{

@@ -33,6 +33,10 @@ body{
     margin: 0px auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .main-header{
     margin-top: 30px;
 }
@@ -62,6 +66,10 @@ body{
 .number a{
     color: #666666;
     white-space: nowrap;
+}
+
+.number a:active{
+    color: #919191;
 }
 
 .lk-left{
