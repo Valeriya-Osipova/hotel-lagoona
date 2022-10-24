@@ -7,7 +7,7 @@
 
 .maldives-krit{
     margin-right: 24px;
-    width: 50%;
+    width: 573px;
 }
 
 .two-cards:not(:last-child){
@@ -21,7 +21,7 @@
 
 .lux{
     height: 540px;
-    width: 50%;
+    width: 573px;
     border-radius: 15px;
     background-image: url(../img/Special.png);
     background-repeat: no-repeat;
