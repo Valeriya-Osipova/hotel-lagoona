@@ -4,6 +4,10 @@
     margin-top: 20px;
 }
 
+.left-block{
+    margin-right: 24px;
+}
+
 .left-offers{
     height: 258px;
     width: 573px;
@@ -32,11 +36,13 @@
 .text-card-offers{
     margin-left: 45px;
     padding-top: 40px;
+    display: inline-block;
 }
 
 .text-card-lux{
     margin-left: 45px;
     padding-top: 212px;
+    display: inline-block;
 }
 
 .card-header{
@@ -106,6 +112,7 @@
 
 .four-cards{
     height: 330px;
+    width: 573px;
     margin-bottom: 24px;
     border-radius: 17px;
     background-color: #fff;
@@ -356,6 +363,7 @@
     border-bottom: 1px solid #c9c9c9;
 }
 
+/* контакты */
 .contacts-block{
     display: flex;
     justify-content: space-between;

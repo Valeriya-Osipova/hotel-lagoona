@@ -1,7 +1,6 @@
 @media all and (max-width: 700px) {
-
+    
     .navbar{
-        height: auto;
         flex-wrap: wrap;
     }
 
@@ -9,21 +8,66 @@
         margin-top: 20px;
     }
 
+    /* спецпредложения */
+
     .special-offers{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-block{
+        margin-right: 0;
+    }
+    
+    .left-offers{
+        margin-bottom: 24px;
+    }
+
+    .text-card-lux{
+        margin-left: 45px;
+        padding-top: 40px;
+    }
+
+    .card-header-lux{
+        font-size: 40px;
+    }
+
+    .left-offers{
+        width: 490px;
+    }
+
+    .right-offer{
+        height: 258px;
+        max-width: 490px;
+    }
+    .img-offers{
+        height: 258px;
+        width: 490px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .detailed-last{
+        margin-top: 27px;
+    }
+    
+    /* услуги */
+
+    .services-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four-cards{
+        width: 480px;
     }
 
 
 
-
-
-
-
-
-
-
-
+    /* преимущества */
 
     .benefits-line{
         flex-direction: column;
@@ -51,5 +95,22 @@
     }
     .plc-margin-top{
         margin-top: 0;
+    }
+
+    .choosing-block-want-tour{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    /* контакты */
+    .contacts-image{
+        display: none;
+    }
+
+    /* футер */
+    .footer-contacts{
+        margin-right: 20px;
     }
 }
