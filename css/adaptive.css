@@ -1,10 +1,26 @@
 @media all and (max-width: 700px) {
     
+    body{
+        max-width: 500px;
+        margin: 0px auto;
+    }
+
+    .logo-number{
+        flex-direction: column;
+    }
+
     .navbar{
-        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
     }
 
     .menu-buttons{
+        display: flex;
+        flex-direction: column;
         margin-top: 20px;
     }
 
