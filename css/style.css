@@ -1,41 +1,42 @@
-
 .special-offers{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
-.maldives-krit{
-    margin-right: 24px;
+.left-offers{
+    height: 258px;
     width: 573px;
+    min-width: 490px;
+    border-radius: 15px;
+    position: relative;
 }
 
-.two-cards:not(:last-child){
+.left-offers:first-child{
     margin-bottom: 24px;
 }
 
-.two-cards{
-    height: 258px;
-    border-radius: 15px;
-}
-
-.lux{
+.right-offer{
     height: 540px;
     width: 573px;
+    min-width: 490px;
     border-radius: 15px;
-    background-image: url(../img/Special.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
+    position: relative;
 }
 
-.text-card{
+.img-offers{
+    position: absolute;
+    z-index: -1;
+}
+
+.text-card-offers{
     margin-left: 45px;
     padding-top: 40px;
 }
 
 .text-card-lux{
     margin-left: 45px;
-    margin-top: 212px;
+    padding-top: 212px;
 }
 
 .card-header{
@@ -72,35 +73,16 @@
     text-decoration: underline;
 }
 
-.maldives{
-    background-image: url(../img/Maldives.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
+.left-offers:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 
-.krit{
-    background-image: url(../img/Krit.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
+.right-block:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 
-.maldives:hover{
-    background-image: url(../img/Maldives-darker.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
-}
-
-.krit:hover{
-    background-image: url(../img/Krit-darker.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
-}
-
-.lux:hover{
-    background-image: url(../img/Special-darker.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
-}
 /* О нас */
 .about-text{
     max-width: 888px;

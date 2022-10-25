@@ -10,36 +10,8 @@
     }
 
     .special-offers{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .two-cards{
-        width: 480px;
-    }
-
-    .maldives-krit{
-        margin-right: 0;
-    }
-
-    .lux{
-        width: 480px;
-        height: 258px;
-        margin-top: 24px;
-    }
-
-    .text-card-lux{
-        margin-left: 45px;
-        margin-top: 40px;
-    }
-
-    .card-header-lux{
-        font-size: 40px;
-    }
-
-    .detailed-lux{
-        margin-top: 27px;
     }
 
 
