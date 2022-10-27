@@ -64,6 +64,7 @@ html{
 }
 
 .number a{
+    margin-right: 20px;
     color: #666666;
     white-space: nowrap;
 }
@@ -75,6 +76,7 @@ html{
 .lk-left{
     color: #CC9933;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .lk-left:hover{
@@ -89,6 +91,7 @@ html{
     background-color: white;
     border-radius: 15px;
     margin-top: 30px;
+    width: 1170px;
     height: 70px;
 }
 
