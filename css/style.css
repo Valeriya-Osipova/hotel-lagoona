@@ -94,6 +94,7 @@
     max-width: 888px;
     margin-top: 20px;
     line-height: 32px;
+    max-height: 250px;
 }
 /* Услуги */
 .services-section{
